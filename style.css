@@ -27,7 +27,7 @@ body {
 .card {
     background: rgba(201, 155, 155, 0.815);
     width: 50vw;
-    height: 80vh;
+    height: auto;
     position: relative;
     box-shadow: 5px 10px 10px rgba(242, 239, 243, 0.979);
     border-radius: 12px;
@@ -39,6 +39,7 @@ body {
 img {
     width: 100%;
     height: 50%;
+    max-height: 300px;
     box-shadow: 2px 2px 5px rgb(16, 20, 20);
     margin-bottom: 10px;
 }
@@ -66,7 +67,7 @@ img:hover {
 }
 
 p {
-    font-size: 14px;
+    font-size: 0.9rem;
     color: #121c27;
     line-height: 150%;
 }
